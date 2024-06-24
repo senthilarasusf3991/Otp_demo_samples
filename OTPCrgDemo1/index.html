@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Essential JS 2 OTP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2 OTP" />
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./styles/material3.css" rel="stylesheet" />
+    <script src="./scripts/ej2.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div id='container' style="width: 350px; margin: 30px;">
+        <div id="number_otp"></div>
+    </div>
+    <div id='container1' style="width: 350px; margin: 30px;">
+        <div id="textOtp"></div>
+    </div>
+
+
+    <script src="index.js" type="text/javascript"></script>
+    <script>
+        var numberOtp = new ej.inputs.OtpInput({
+            value: "1234",
+            type: 'number'
+        });
+        numberOtp.appendTo('#number_otp');
+
+        var textOtp = new ej.inputs.OtpInput({
+            value: "e3c7",
+            type: 'text'
+        });
+        textOtp.appendTo("#textOtp");
+    </script>
+    <!-- <style>
+
+    </style> -->
+</body>
+
+</html>

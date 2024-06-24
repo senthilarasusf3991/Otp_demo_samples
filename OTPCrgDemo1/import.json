@@ -1,0 +1,14 @@
+{
+    "name": "ej2",
+    "version": "26.1.38",
+    "components": [
+        "otp-input"
+    ],
+    "injectables": {},
+    "minified": false,
+    "themes": [
+        "material3"
+    ],
+    "userMailId": "senthilarasu.balu@syncfusion.com",
+    "licenseStatus": {}
+}
